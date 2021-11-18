@@ -1,0 +1,1762 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.mainbody{
+    /*background-color:white ;*/
+    width:100vw;
+    height:100vh;
+}
+.i1{
+position: absolute;
+width: 413px;
+height: 80px;
+left: 22px;
+top: 12px;
+
+background: url("../images/banner\ \(1\)\ 1.png");
+}
+.i2{
+    position: absolute;
+    width: 1440px;
+    height: 681px;
+    left: 0px;
+    top: 1px;
+    
+    /*background:url("../images/yellow\ wave\ front.svg");*/
+}
+.i3{
+    position: absolute;
+width: 1440px;
+height: 681px;
+left: 0px;
+top: 37px;
+
+/*background: url("../images/red\ wavefrontpage.svg"),url("../images/yellow\ wave\ front.svg");;*/
+}
+.main01{
+    position: absolute;
+width: 366px;
+height: 122px;
+left: 93px;
+top: 216px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+}
+
+.main02{
+    position: absolute;
+width: 382px;
+height: 22px;
+left: 90px;
+top: 365px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.main03{
+    position: absolute;
+width: 334px;
+height: 35px;
+left: 93px;
+top: 425px;
+
+background: white;
+border-radius: 33px;
+}
+
+.main04{
+position: relative;
+width: 1131px;
+height: 592px;
+left: 422px;
+top: 0%;
+border:none;
+
+background: url("../images/kindpng_2190956\ 1.png");
+background-repeat: no-repeat;
+
+}
+.circle1{
+    position: absolute;
+width: 123px;
+height: 123px;
+left: 539px;
+top: 91px;
+
+/*background:url("../images/Ellipse\ 3.png")*/
+}
+
+
+.nav1{
+    position: absolute;
+    width: 64px;
+    height: 25px;
+    left: 892px;
+    top: 23px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+.nav2{
+    position: absolute;
+width: 94px;
+height: 29px;
+left: 973px;
+top: 23px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+}
+.nav3{
+    position: absolute;
+width: 183px;
+height: 25px;
+left: 1107px;
+top: 23px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+}
+.nav4{
+    position: absolute;
+width: 183px;
+height: 25px;
+left: 1257px;
+top: 23px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+}
+/*#########################  Navigation bar ###############################################*/
+
+.nav-container {
+    background:#E5E5E5;
+
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
+    height: 72px;
+
+
+}
+
+.wrapper {
+    
+    width: 90%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:80px;
+    padding-top:20px;
+    color:#E5E5E5;
+}
+nav ul {
+    display: flex;
+}
+
+.nav-items li {   
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items li a {
+    color :black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+/*header */
+
+.divv h1{
+    color:black;
+    position:absolute;
+    left:50%;
+    top:10%;
+    transform:translate(-50%,-50%);
+    font-family:'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+hr{
+    position:absolute;
+    left:50%;
+    top:150%;
+    transform:translate(-50%,-50%) ;
+    justify-content: center;
+    align-items: center;
+    border:solid black;
+    width:340px;
+}
+
+.sectionone .onediv{
+    position: absolute;
+width: 372px;
+height: 505px;
+left: 62px;
+top: 229px;
+
+background: #EAE7DC;
+background-repeat: no-repeat;
+}
+
+.sectionone .twodiv{
+    position: absolute;
+width: 372px;
+height: 505px;
+left: 580px;
+top: 229px;
+
+background: #EAE7DC;
+
+}
+
+.sectionone .threediv{
+    position: absolute;
+width: 372px;
+height: 505px;
+left:1090px;
+top: 229px;
+
+background: #EAE7DC;
+}
+
+.sectionone .onediv button {
+
+position: absolute;
+width: 223px;
+height: 60px;
+left: 72px;
+top: 419px;
+
+background: rgba(253, 56, 1, 0.4);
+border-radius: 15px;
+
+}
+
+.sectionone .twodiv button {
+
+position: absolute;
+width: 223px;
+height: 60px;
+left: 72px;
+top: 419px;
+
+background: rgba(253, 56, 1, 0.4);
+border-radius: 15px;
+}
+
+.sectionone .threediv button {
+    position: absolute;
+width: 223px;
+height: 60px;
+left: 72px;
+top: 419px;
+
+background: rgba(253, 56, 1, 0.4);
+border-radius: 15px;
+
+   
+}
+
+.sectionone .onediv .wave1{
+    position: absolute;
+width: 371.91px;
+height: 192.19px;
+left: none;
+top: none;
+
+background-image: none;
+border-radius: 7px;
+transform: rotate(-0.29deg);
+}
+.sectionone .onediv .wave1 .subwave1{
+    position: absolute;
+    width: 370.91px;
+    height: 215.38px;
+    left:none;
+    top: 1.7px;
+    
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    transform: rotate(-0.29deg);
+}
+
+.sectionone .twodiv .wave2 .subwave1{
+    position: absolute;
+    width: 370.91px;
+    height: 215.38px;
+    left:none;
+    top: 1.7px;
+    
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    transform: rotate(-0.29deg);
+}
+
+.sectionone .threediv .wave3 .subwave1{
+    position: absolute;
+    width: 370.91px;
+    height: 215.38px;
+    left:none;
+    top: 1.7px;
+    
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    transform: rotate(-0.29deg);
+}
+
+.para1 h2{
+position: absolute;
+width: 395px;
+height: 101px;
+left: none;
+top: 280px;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #121010;
+
+}
+.sectionone .map{
+    position: absolute;
+width: 146px;
+height: 146px;
+left: 109px;
+top: 55px;
+
+background: url("../images/map\ 1.png");
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background-repeat: no-repeat;
+}
+
+.sectionone .houce{
+    position: absolute;
+width: 146px;
+height: 146px;
+left: 109px;
+top: 55px;
+
+background: url("../images/house\ \(1\)\ 1.png");
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background-repeat: no-repeat;
+}
+
+.sectionone .file{
+    position: absolute;
+width: 146px;
+height: 146px;
+left: 109px;
+top: 55px;
+
+background: url("../images/file\ 1.png");
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background-repeat: no-repeat;
+}
+
+/* ###############################################  Third Page  #################################################*/
+
+.childdiv h1{
+position: absolute;
+width: 399px;
+height: 47px;
+left: 516px;
+top: 49px;
+color:black;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.childdiv{
+    width:95vw;
+    height:95vh;
+    background:#EAE7DC;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border-radius:20px;
+    margin-bottom: 5em;
+  }
+  .childdiv h1{
+    color:black;
+    position:absolute;
+    left:50%;
+    top:10%;
+    transform:translate(-50%,-50%);
+    font-family:'Montserrat', sans-serif;
+  
+  }
+  
+  .childdiv .sub1 img{
+    color:white;
+    position:absolute;
+    left:9%;
+    top:22%;
+  
+  }
+  
+  .childdiv .sub2 img{
+    color:white;
+    position:absolute;
+    left:9%;
+    top:40%;
+  
+  }
+  .childdiv .sub3 img{
+    color:white;
+    position:absolute;
+    left:9%;
+    top:65%;
+  
+  }
+  .childdiv .sub4 img{
+    color:white;
+    position:absolute;
+    left:35%;
+    top:15%;
+  
+  }
+  .childdiv .sub5 img{
+    color:white;
+    position:absolute;
+    left:38%;
+    top:40%;
+  
+  }
+  .childdiv .sub6 img{
+    color:white;
+    position:absolute;
+    left:35%;
+    top:74%;
+  
+  }
+  
+  .childdiv .sub7 img{
+    color:white;
+    position:absolute;
+    left:65%;
+    top:9%;
+  
+  }
+  .childdiv .sub8 img{
+    color:white;
+    position:absolute;
+    left:75%;
+    top:50%;
+  
+  }
+
+  .childdiv .sub9 img{
+    color:white;
+    position:absolute;
+    left:65%;
+    top:68%;
+  
+  }
+
+  /*###############################################  Fourth Page Design  #############################################*/
+
+  
+
+.z1{
+    position: absolute;
+width: 223px;
+height: 43px;
+left: 32px;
+top: 48px;
+
+background: url("../images/1.png");
+}
+.z2{
+    position: absolute;
+    width: 421px;
+    height: 51px;
+    left: 235px;
+    top: 570px;
+    
+    background: rgba(229, 231, 235, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+.z3{
+    position: absolute;
+width: 184px;
+height: 51px;
+left: 671px;
+top: 570px;
+
+background: rgba(229, 231, 235, 0.7);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+
+}
+.zp1{
+position: absolute;
+left: 18.75%;
+right: 62.64%;
+top: 9.81%;
+bottom: 85.09%;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.zp2{
+position: absolute;
+left: 42.6%;
+right: 45.28%;
+top: 9.81%;
+bottom: 85.09%;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.zp3{
+    position: absolute;
+left: 73.75%;
+right: 12.15%;
+top: 9.81%;
+bottom: 85.09%;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.zp4{
+    position: absolute;
+width: 158px;
+height: 20px;
+left: 255px;
+top: 585px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+
+
+}
+.zp5{
+    position: absolute;
+width: 90px;
+height: 24px;
+left: 718px;
+top: 585px;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+color: #000000;
+}
+.zp6{
+    position: absolute;
+    width: 185px;
+    height: 24px;
+    left: 284px;
+    top: 112px;
+    
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+}
+.zp7{
+    position: absolute;
+width: 196px;
+height: 24px;
+left: 286px;
+top: 147px;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.zp8{
+    position: absolute;
+    width: 196px;
+    height: 24px;
+    left: 286px;
+    top: 185px;
+    
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #000000; 
+}
+.zp9{
+    position: absolute;
+    width: 220px;
+    height: 24px;
+    left: 286px;
+    top: 228px;
+    
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #000000;  
+}
+.zp10{
+    position: absolute;
+width: 85px;
+height: 24px;
+left: 671px;
+top: 108px;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+color: #000000;
+}
+.zp11{
+    position: absolute;
+    width: 167px;
+    height: 24px;
+    left: 671px;
+    top: 144px;
+    
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #000000; 
+}
+.zp12{
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 671px;
+    top: 185px;
+    
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #000000;
+       
+}
+.zp13{
+  
+position: absolute;
+left: 68%;
+right: -50.47%;
+top: 16.26%;
+bottom: 57.89%;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.zp14{
+    position: absolute;
+left: 72%;
+right: -50.47%;
+top: 39%;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.zp15{
+    position: absolute;
+width: 140px;
+height: 54px;
+left: 1160px;
+top: 368px;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+color: #000000;
+
+}
+
+
+/*########################################### Fifth Page Design  ####################################################*/
+.fivebody{
+    background:#E5E5E5;
+}
+.fifthpage h1{
+position: absolute;
+width: 521px;
+height: 47px;
+left: 455px;
+top: 40px;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.searchdiv{
+
+    position: absolute;
+width: 529px;
+height: 51px;
+left: 451px;
+top: 113px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+
+}
+.searchdiv p{
+position: absolute;
+width: 399px;
+height: 24px;
+left:18%;
+top: 22%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 49px;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+
+color: grey;
+
+}
+
+.searchdiv i{
+position: absolute;   
+width: 30px;
+height: 30px;
+left: 3%;
+top: 19%;
+font-weight: 600;
+font-size: 20px;
+
+}
+
+/*  ####### Grid Div Design  ######## */
+
+
+
+
+.maingrid{
+    position: absolute;
+    width: 400px;
+    height: 590px;
+    left:3%;
+    top: 24%;
+    
+    background: url('../images/citymumbai.png');
+    border-radius: 22px;  
+    background-size:cover;
+}
+.grid1{
+    width: 269px;
+    height: 260px;
+    position: absolute;
+    left: 520px;
+    right: 42.21%;
+    top: 25.09%;
+    bottom: 45.32%;
+    
+    background: url('../images/Rectangle\ 82.png');
+    border-radius: 22px;
+
+}
+
+.grid2{
+position: absolute;
+width: 269px;
+height: 260px;
+left: 842px;
+top: 190px;
+
+background: url('../images/Rectangle\ 80.png');
+border-radius: 22px;
+}
+
+.grid3{
+    position: absolute;
+width: 269px;
+height: 260px;
+left: 1155px;
+top: 190px;
+
+background: url('../images/Rectangle\ 83.png');
+border-radius: 22px;
+}
+.grid4{
+    position: absolute;
+    width: 269px;
+    height: 260px;
+    left: 520px;
+    top: 501px;
+    
+    background: url("../images/Rectangle\ 86.png");
+    border-radius: 22px;
+}
+
+.grid5{
+    position: absolute;
+    width: 269px;
+    height: 260px;
+    left: 842px;
+    top: 505px;
+    
+    background: url("../images/Rectangle\ 87.png");
+    border-radius: 22px;
+}
+
+.grid6{
+    position: absolute;
+    width: 269px;
+    height: 260px;
+    left: 1155px;
+    top: 505px;
+    
+    background: url("../images/Rectangle\ 88.png");
+    border-radius: 22px;
+}
+
+/*  ########################################  Sixth Page Design  ############################################# */
+
+
+.six1{
+    position: absolute;
+width: 223px;
+height: 43px;
+left: 23px;
+top: 24px;
+background-size: cover;
+
+background: url("../images/1.png");
+}
+
+.six2{
+position: absolute;
+width: 516px;
+height: 75px;
+left: 277px;
+top: 8px;
+
+background: rgba(196, 196, 196, 0.5);
+border-radius: 16px;
+}
+.six2 .subdiv{
+position: absolute;
+width: 23px;
+height: 23px;
+left: 5%;
+top:35%;
+
+background: url("../images/search\ 1.png");
+}
+.six2 .subdiv h1{
+position: absolute;
+width: 106px;
+height: 48px;
+left: 250%;
+top: -45%;
+
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ /*.nav-items li a {
+    color :black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 24px;
+    position:absolute;
+    width: 49px;
+height: 48px;
+left: 824px;
+top: 22px;
+
+}*/
+.nav-items li a{   
+    list-style: none;
+    margin-right: 100px;
+   
+
+}
+.list2{
+position: absolute;
+width: 60px;
+height: 48px;
+left: 904px;
+top: 22px;
+font-size: 30px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+}
+
+.list3{
+    position: absolute;
+    width: 60px;
+    height: 48px;
+    left: 990px;
+    top: 22px;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    text-align: right;
+    
+    color: #000000;
+    }
+
+    .list4{
+        position: absolute;
+        width: 60px;
+        height: 48px;
+        left: 770px;
+        top: 22px;
+        font-size: 30px;
+        line-height: 48px;
+        /* identical to box height */
+        
+        text-align: right;
+        
+        color: #000000;
+        }
+
+        .list1{
+            position: absolute;
+            width: 60px;
+            height: 48px;
+            left: 1080px;
+            top: 22px;
+            font-size: 30px;
+            line-height: 48px;
+            /* identical to box height */
+            
+            text-align: right;
+            
+            color: #000000;
+            }
+    
+.nav-items .subdiv h1{
+    width: 49px;
+height: 48px;
+left: 824px;
+top: 22px;
+
+}
+
+.box1{
+    position: absolute;
+width: 268px;
+height: 60px;
+left: 23px;
+top: 91px;
+
+background: #C4C4C4;
+border-radius: 16px;
+}
+
+.box2{
+    
+position: absolute;
+width: 141px;
+height: 56px;
+left: 313px;
+top: 93px;
+
+background: #C4C4C4;
+border-radius: 16px;
+}
+
+.box3{
+    position: absolute;
+width: 141px;
+height: 56px;
+left: 475px;
+top: 92px;
+
+background: #C4C4C4;
+border-radius: 16px;
+}
+.box4{
+    position: absolute;
+width: 141px;
+height: 56px;
+left: 641px;
+top: 92px;
+
+background: #C4C4C4;
+border-radius: 16px;
+}
+
+.box5{
+    position: absolute;
+width: 141px;
+height: 56px;
+left: 797px;
+top: 90px;
+
+background: #C4C4C4;
+border-radius: 16px;
+}
+
+.box6{
+    position: absolute;
+width: 187px;
+height: 60px;
+left: 961px;
+top: 93px;
+
+background: #C4C4C4;
+border-radius: 16px;
+}
+
+
+.area{
+    position: absolute;
+width: 647px;
+height: 564px;
+left: 755px;
+top: 199px;
+
+background: url("../images/area\ map.png");
+}
+
+.square1{
+    position: absolute;
+width: 338px;
+height: 324px;
+left: 23px;
+top: 160px;
+
+background: white;
+border-radius: 11px;
+}
+
+.square2{
+    position: absolute;
+    width: 338px;
+    height: 324px;
+    left: 382px;
+    top: 160px;
+    
+    background: white;
+    border-radius: 11px;
+}
+.square3{
+    position: absolute;
+    width: 338px;
+    height: 324px;
+    left: 23px;
+    top: 495px;
+    
+    background: white;
+    border-radius: 11px;
+}
+.square4{
+position: absolute;
+width: 338px;
+height: 324px;
+left: 382px;
+top: 495px;
+
+background:white;
+border-radius: 11px;
+}
+
+.subsquare1{
+    position: absolute;
+width: 310px;
+height: 210px;
+left: 36px;
+top: 171px;
+
+background: url("../images/97.png");
+border-radius: 16px;
+}
+
+.subsquare2{
+    position: absolute;
+    width: 310px;
+    height: 210px;
+    left: 396px;
+    top: 171px;
+    
+    background: url("../images/98.png");
+    border-radius: 16px;
+}
+
+.subsquare3{
+    position: absolute;
+    width: 310px;
+    height: 210px;
+    left: 36px;
+    top: 506px;
+    
+    background: url("../images/99.png");
+    border-radius: 16px;
+}
+
+.subsquare4{
+    position: absolute;
+width: 310px;
+height: 210px;
+left: 396px;
+top: 505px;
+
+background: url("../images/officeinterior1.jpg");
+border-radius: 16px;
+}
+
+.rupee1{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 36px;
+top: 388px;
+
+background: url("../images/rupees.png");
+}
+.rupee2{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 396px;
+top: 388px;
+
+background: url("../images/rupees.png");
+
+}
+
+.rupee3{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 36px;
+top: 723px;
+
+background: url("../images/rupees.png");
+
+}
+.rupee4{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 396px;
+top: 724px;
+
+background: url("../images/rupees.png");
+}
+
+.feet1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 36px;
+    top: 417px;
+    
+    background: url("../images/squarefeet.png");
+}
+.feet2{
+    
+position: absolute;
+width: 30px;
+height: 30px;
+left: 400px;
+top: 414px;
+
+background: url("../images/squarefeet.png");
+    
+}
+.feet3{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 36px;
+top: 752px;
+
+background: url("../images/squarefeet.png");
+    
+}
+.feet4{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 400px;
+top: 750px;
+
+background: url("../images/squarefeet.png");
+}
+
+/*########*/
+
+.bath1{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 164px;
+top: 413px;
+
+background: url("../images/bathroom.png");
+
+}
+.bath2{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 516px;
+top: 414px;
+
+background: url("../images/bathroom.png");
+    
+}
+.bath3{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 164px;
+top: 748px;
+
+background: url("../images/bathroom.png");
+}
+.bath4{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 516px;
+top: 750px;
+
+background: url("../images/bathroom.png");
+}
+
+/*  ######  */
+.bed1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 227px;
+    top: 417px;
+    
+    background: url("../images/bed.png");
+}
+.bed2{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 575px;
+top: 414px;
+
+background: url("../images/bed.png");
+}
+.bed3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 227px;
+    top: 752px;
+    
+    background: url("../images/bed.png"); 
+}
+.bed4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 575px;
+    top: 750px;
+    
+    background: url("../images/bed.png"); 
+}
+
+.sixth{
+    background:rgb(236, 181, 109);
+}
+.fivebody{
+    background:rgb(236, 181, 109);
+}
+
+/*######################*/
+.bix1{
+    position: absolute;
+    width: 346px;
+    height: 386px;
+    left: 176px;
+    top: 94px;
+    
+    background: url("../images/image\ 15.png");
+    border-radius: 14px;
+}
+.bix2{
+    position: absolute;
+width: 343px;
+height: 185px;
+left: 532px;
+top: 94px;
+
+background: url("../images/image\ 16.png");
+border-radius: 14px;
+}
+.bix3{
+    position: absolute;
+width: 344px;
+height: 193px;
+left: 532px;
+top: 287px;
+
+background: url("../images/image\ 17.png");
+border-radius: 14px;
+}
+.bix4{
+    position: absolute;
+width: 379px;
+height: 386px;
+left: 885px;
+top: 94px;
+
+background: url("../images/image\ 18.png");
+border-radius: 14px;
+}
+
+
+.rect1{
+    position: absolute;
+    width: 169px;
+    height: 75px;
+    left: 624px;
+    top: 548px;
+    
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 16px;
+}
+.rect2{
+    position: absolute;
+    width: 302px;
+    height: 75px;
+    left: 960px;
+    top: 537px;
+    
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 16px;
+}
+.rect3{
+    position: absolute;
+    width: 302px;
+    height: 75px;
+    left: 960px;
+    top: 623px;
+    
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 16px;
+}
+.rect4{
+    position: absolute;
+    width: 353px;
+    height: 75px;
+    left: 935px;
+    top: 740px;
+    
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 16px;
+}
+
+.co{
+    position: absolute;
+    width: 105px;
+    height: 30px;
+    left: 635px;
+    top: 568px;
+    
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: right;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.em{
+    position: absolute;
+    width: 74px;
+    height: 35px;
+    left: 985px;
+    top: 557px;
+    
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: right;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pass{
+    position: absolute;
+    width: 91px;
+    height: 35px;
+    left: 977px;
+    top: 643px;
+    
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: right;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.enter{
+    position: absolute;
+width: 197px;
+height: 35px;
+left: 952px;
+top: 758px;
+
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 35px;
+text-align: right;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add1{
+    position: absolute;
+width: 416px;
+height: 48px;
+left: 168px;
+top: 489px;
+
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add2{
+    position: absolute;
+width: 386px;
+height: 96px;
+left: 176px;
+top: 537px;
+
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 48px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.xy1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 176px;
+    top: 637px;
+    
+    background: url("../images/squarefeet.png");
+}
+.xy2{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 305px;
+top: 637px;
+
+background: url("../images/bathroom.png");
+}
+.xy3{
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 364px;
+top: 637px;
+
+background: url("../images/bed.png");
+}
+
+.xy4{
+    position: absolute;
+    width: 50px;
+    height: 50.15px;
+    left: 214px;
+    top: 739px;
+    
+    background: url("../images/whatsapp\ \(1\).png");
+}
+.xy5{
+    position: absolute;
+width: 50px;
+height: 37.5px;
+left: 285px;
+top: 747px;
+
+background: url("../images/whatsapp\ \(2\).png");
+}
+.xy6{
+    position: absolute;
+width: 26px;
+height: 26px;
+left: 651px;
+top: 510px;
+
+background: url("../images/rupees.png");
+}
+.request{
+    position: absolute;
+width: 180px;
+height: 35px;
+left: 1021px;
+top: 494px;
+
+font-family: Cinzel;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 35px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Landing Page Background */
+
+/*.Back1{
+    position: absolute;
+    width: 1440px;
+    height: 681px;
+    left: 0px;
+    top: 0px;
+    
+    background: url('../images/Vector\ 2.png');
+}
+.Back2{
+    position: absolute;
+width: 1440px;
+height: 681px;
+left: 0px;
+top: 17px;
+
+background: url('../images/Vector\ 3.svg');
+}*/
+
+.Back3{
+position: absolute;
+width: 477px;
+height: 248px;
+left:60%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+
+color: #000000;
+
+}
+.diff1{
+    position: absolute;
+width: 477px;
+height: 248px;
+left:none;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+line-height: 44px;
+text-align: right;
+
+color: #000000;
+}
